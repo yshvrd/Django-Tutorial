@@ -8,4 +8,5 @@ urlpatterns = [
     path('postendpoint', views.post_example, name="post_example"),
     path('submitendpoint', views.submit_example, name="post example"),
     path('submitdjango', views.submit_django_form, name="submit_django_example"),
+    path('templating', views.template_view, name="template_view"),
 ]
